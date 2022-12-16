@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdminCooks/AdminCooks.iml" filepath="$PROJECT_DIR$/AdminCooks/AdminCooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Client/Client.iml" filepath="$PROJECT_DIR$/Client/Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerDelivery/ServerDelivery.iml" filepath="$PROJECT_DIR$/ServerDelivery/ServerDelivery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerInvoice/ServerInvoice.iml" filepath="$PROJECT_DIR$/ServerInvoice/ServerInvoice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_rmi_burger.iml" filepath="$PROJECT_DIR$/project_rmi_burger.iml" />
+    </modules>
+  </component>
+</project>
