@@ -1,8 +1,0 @@
-dic. 15, 2022 8:52:28 P. M. org.jaudiotagger.audio.AudioFile checkFilePermissions
-INFO: Reading file:pathcancion.mp3:abs:D:\UNIVERSIDAD\SEPTIMO SEMESTRE\Distribuidos\requerimiento2\project_rmi_burger\cancion.mp3
-dic. 15, 2022 8:52:28 P. M. org.jaudiotagger.audio.AudioFile checkFilePermissions
-SEVERE: Unable to find:cancion.mp3
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "servidor.DTO.CancionDTO.setArrayBytes(byte[])" because "objCancion" is null
-	at cliente.vista.Menu.Opcion1(Menu.java:52)
-	at cliente.vista.Menu.ejecutarMenuPrincipal(Menu.java:30)
-	at cliente.servicios.ClienteDeObjetos.main(ClienteDeObjetos.java:30)
