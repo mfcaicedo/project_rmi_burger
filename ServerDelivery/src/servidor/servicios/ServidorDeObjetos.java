@@ -36,11 +36,11 @@ public class ServidorDeObjetos
         ControllerManagementNotificationsImpl objRemoteCooks = new ControllerManagementNotificationsImpl();
 
         //consulto el objRemoto del servidor de respaldo
-        objRemoto = (ControladorGestorRespaldoInt) UtilidadesRegistroC.obtenerObjRemoto(direccionIpRMIRegistry,
-                2021, "objServicioGestionRespaldo");
+        //objRemoto = (ControladorGestorRespaldoInt) UtilidadesRegistroC.obtenerObjRemoto(direccionIpRMIRegistry,
+          //      2021, "objServicioGestionRespaldo");
 
         ControllerManagementBurgerImpl objRemoteBurger = new ControllerManagementBurgerImpl(
-                objRepository, objRemoteCooks, objRemoto);
+                objRepository, objRemoteCooks);
 
         try
         {

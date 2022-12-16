@@ -13,15 +13,13 @@ public class ControllerManagementBurgerImpl extends UnicastRemoteObject
     
     private final BurgerRepositoryInt objBurgerRepository;
     private final ControllerManagementNotificationsImpl objReferenciaRemota;
-    private final ControladorGestorRespaldoInt objRemoto;
     public ControllerManagementBurgerImpl(BurgerRepositoryInt objCancionesRepository,
-                                          ControllerManagementNotificationsImpl objReferenciaRemota,
-                                          ControladorGestorRespaldoInt objRemoto) throws RemoteException
+                                          ControllerManagementNotificationsImpl objReferenciaRemota
+                                          ) throws RemoteException
     {
         super(); //se asigna un puerto de escucha al OR
         this.objBurgerRepository = objCancionesRepository;
         this.objReferenciaRemota = objReferenciaRemota;
-        this.objRemoto = objRemoto;
     }
 
     @Override
